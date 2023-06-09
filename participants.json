@@ -1,8 +1,23 @@
 {
     "sex": {
-        "Description": "Participant's sex"
+        "Description": "Participant's sex",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": ""
+            },
+            "Levels": {
+                "f": {
+                    "TermURL": "snomed:248152002",
+                    "Label": ""
+                },
+                "m": {
+                    "TermURL": "snomed:248153007",
+                    "Label": ""
+                }
+            }
+        }
     },
-
     "Age": {
         "Description": "Participant's age at the moment of testing"
     }
